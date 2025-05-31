@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("data/donations.json")
+  fetch("data/donation.json")
     .then(response => {
       if (!response.ok) throw new Error("Не удалось загрузить файл пожертвований");
       return response.json();
